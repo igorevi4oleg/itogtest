@@ -219,6 +219,8 @@ header {
 .div-themes {
 
     height: 128px;
+    justify-content: end;
+    width: 1256px;
 }
 
 .li-themes {
@@ -226,7 +228,7 @@ header {
     display: flex;
     margin: 0px;
     flex-direction: row;
-    padding-left: 550px;
+    justify-content: end;
     padding-top: 107px;
     list-style: none;    
     
@@ -372,7 +374,7 @@ header {
 
     height: 186px;
     display: block;
-    padding-top: 52.68px;
+    padding-top: 45px;
     position: relative;
     border: 0;
     
@@ -480,8 +482,10 @@ header {
 .photo-themes-div {
 
 
-    padding-top: 52.68px;
-    padding-left: 110px;
+    padding-top: 45px;
+    
+    position: absolute;
+    right: 0;
 
 }
 
@@ -498,6 +502,7 @@ header {
     display: flex;
     flex-direction: row;
     position: relative;
+    height: 527px;
 }
 
 .obout-themes {
@@ -591,5 +596,48 @@ svg:hover path.left1, svg:hover path.left2 {
 .vec-img {
 
     position: absolute;
-    bottom: -13px;
+    bottom: 0;
+}
+
+.online-controle-img {
+
+    display: flex;
+    justify-content: center;
+    padding-top: 92px;
+    width: 1256px;
+}
+
+.overflow-third {
+
+    display: block;
+    height: 552.28px;
+    width: 1256px;
+    margin: 0 auto;
+}
+
+.video-div {
+
+    display: flex;
+    height: 434px;
+    width: 817px;
+    margin: 0 auto;
+    justify-content: center;
+    margin-top: -217px;
+    background-image: url(../images/image\ 6.jpg);
+    
+    
+    
+}
+
+.video {
+
+    width: 817px;
+    height: 434px;
+    background: rgba(0, 0, 0, 0.7);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+    
 }
