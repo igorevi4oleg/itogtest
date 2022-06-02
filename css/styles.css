@@ -228,7 +228,7 @@ header {
     flex-direction: row;
     padding-left: 550px;
     padding-top: 107px;
-    
+    list-style: none;    
     
 }
 
@@ -286,6 +286,7 @@ header {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.3);
     margin-right: 60.5px;
+   
 
 }
 
@@ -301,6 +302,7 @@ header {
     color: rgba(255, 255, 255, 0.3);
     margin-right: 60.5px;
     
+    
 }
 
 .patriotic a {
@@ -314,6 +316,7 @@ header {
     text-decoration: none;
     color: rgba(255, 255, 255, 0.3);
     margin-right: 60.5px;
+    
 
 }
 
@@ -487,12 +490,14 @@ header {
     background-image: url(../images/theme.jpg);
     width: 679px;
     height: 482px;
+    
 }
 
 .underli {
 
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 .obout-themes {
@@ -501,10 +506,90 @@ header {
     height: 482px;
 }
 
-.vec-img {
+.right1 {
 
-    src="left.svg"
+    fill: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+   
+}
+
+.right2 {
+
+    fill: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+.left1 {
+
+    fill: rgba(255, 255, 255, 0.3);
+}
+
+.left2 {
+
+    fill: rgba(255, 255, 255, 0.3);
+}
+
+.dot1 {
+
+    fill: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+.dot2 {
+
+    fill: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+.dot3 {
+
+    fill: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+}
+
+.left1 {
+
+    background-size: 40.51px 13.28px;
+    fill: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
+
+}
+
+.left2 {
+
+    fill: rgba(255, 255, 255, 0.3);
+    border-radius: 30px;
 
 }
 
 
+.dot1:hover {
+
+    fill: white;
+}
+
+.dot2:hover {
+
+    fill: white;
+}
+
+.dot3:hover {
+
+    fill: white;
+}
+
+svg:hover path.right1, svg:hover path.right2 {
+
+    fill: white;
+}
+
+svg:hover path.left1, svg:hover path.left2 {
+
+    fill: white;
+}
+
+.vec-img {
+
+    position: absolute;
+    bottom: -12px;
+}
