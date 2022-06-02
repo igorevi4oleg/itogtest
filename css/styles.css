@@ -1,0 +1,510 @@
+@font-face {
+    font-family: 'Nunito Sans';
+    src: local('Nunito Sans');
+    src: url(../font/NunitoSans-Regular.ttf);
+    
+}
+
+@font-face {
+    font-family: 'Yeseva One';
+    src: local('Yeseva One');
+    src: url(../font/YesevaOne-Regular.ttf);
+}
+
+body {
+
+    display: block;
+}
+
+.button-header {
+    
+    font-family: 'Nunito Sans';
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    border-radius: 2px;
+    color: white;
+    padding: 13px 33px;
+    text-transform: uppercase;
+    border: 0px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    height: 37px;
+    width: 161px;
+
+   
+}
+
+.contant {
+
+    display: flex;
+    justify-content: space-between;
+    height: 83px;
+    align-items: center;
+    width: 1256px;
+    margin: 0 auto;
+}
+
+
+header {
+
+    background-color: black;
+    display: flex;
+    
+
+}
+
+.logo {
+
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-transform: uppercase;
+    color: #E3B873;
+    
+}
+
+.pages {
+
+    list-style: none;
+    display: flex;
+}
+
+.navi-link {
+
+    margin-right: 47.09px;
+    
+}
+
+.navi-link a:hover {
+
+    color: #E3B873;
+
+}
+
+.navi-link a {
+
+    text-decoration: none;
+    color: white;
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+}
+
+.number {
+
+    font-family: 'Nunito Sans', Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
+.first {
+
+    background-image: url(../images/1st.jpg);
+    background-size: cover;
+    height: 707px; 
+    
+}
+
+.Turnkey {
+
+    margin: 0;
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;   
+    font-size: 40px;
+    line-height: 53px;
+    text-transform: uppercase;
+    color: #FFFFFF
+    
+}
+
+.Rostov {
+
+    color: #E3B873;
+}
+
+.rostov-on-don {
+
+    padding-top: 194px;
+    width: 1256px;
+    margin: 0 auto;
+    z-index: 11;
+    
+}
+
+.overflow {
+
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 10;
+    height: 707px;
+}
+
+.text {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    color: #FFFFFF;
+    padding-right: 750px;
+    
+}
+
+.interesting {
+
+    font-family: 'Nunito Sans';
+    background: none;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    color: white;
+    padding: 10px 25px;
+    text-transform: uppercase;
+    border: 0px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    height: 51px;
+    width: 207px;
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    
+}
+
+.interesting:hover {
+
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+}
+
+.buttons {
+
+    display: flex;
+    width: 430px; 
+    justify-content: space-between;
+
+}
+
+.second {
+
+    background-color: black;
+    margin: 0 auto;
+    height: 1074px;
+}
+
+.themes {
+
+    display: flex;
+    list-style: none;
+    margin: 0 auto;
+    
+    
+}
+
+.div-themes {
+
+    height: 128px;
+}
+
+.li-themes {
+
+    display: flex;
+    margin: 0px;
+    flex-direction: row;
+    padding-left: 550px;
+    padding-top: 107px;
+    
+    
+}
+
+.admiral a:hover {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px #E3B873 solid;
+    display: inline-block;
+    color: #E3B873
+}
+
+.sochi a:hover {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px #E3B873 solid;
+    display: inline-block;
+    color: #E3B873
+}
+    
+.patriotic a:hover {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    border-bottom: 1px #E3B873 solid;
+    display: inline-block;
+    color: #E3B873
+
+}
+
+.admiral a {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    margin-right: 60.5px;
+
+}
+
+.sochi a {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    margin-right: 60.5px;
+    
+}
+
+.patriotic a {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.3);
+    margin-right: 60.5px;
+
+}
+
+.overflow-second {
+
+    display: block;
+    height: 552.28px;
+    width: 1256px;
+    margin: 0 auto;
+}
+
+.Completed-projects {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 27px;
+    line-height: 37px;
+    letter-spacing: -0.07em;
+    text-transform: uppercase;
+    color: #E3B873;
+    
+    margin: 0;
+}
+
+.completed {
+
+    width: 253px;
+    height: 66px;
+    margin: 0;
+
+}
+
+.description-text {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 27px;
+    color: #FFFFFF;
+    
+}
+
+.description {
+
+    width: 442px;
+    height: 86px;
+    padding-top: 34px;
+}
+
+.complete-description {
+
+    height: 186px;
+    display: block;
+    padding-top: 52.68px;
+    position: relative;
+    border: 0;
+    
+}
+
+.div-city-text {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873;
+}
+
+.div-area-text {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873
+}
+
+.div-time-text {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873
+}
+
+.div-cost-text {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase;
+    color: #E3B873
+}
+
+
+.name-city-text {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.much-area-text {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+
+}
+
+.much-time-text {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+.much-cost-text {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
+    color: #FFFFFF;
+}
+
+
+.about-project {
+
+    display: grid;
+    grid-template-columns: repeat(2, 221px);
+    width: 442px;
+    position: relative;
+    padding-top: 40px;
+   
+  
+    
+}
+
+.photo-themes-div {
+
+
+    padding-top: 52.68px;
+    padding-left: 110px;
+
+}
+
+.photo-themes {
+
+    background-image: url(../images/theme.jpg);
+    width: 679px;
+    height: 482px;
+}
+
+.underli {
+
+    display: flex;
+    flex-direction: row;
+}
+
+.obout-themes {
+
+    display: block;
+    height: 482px;
+}
+
+.vec-img {
+
+    src="left.svg"
+
+}
+
+
