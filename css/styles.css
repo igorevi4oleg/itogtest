@@ -1640,11 +1640,12 @@ input:focus::placeholder {
 .seventh {
 
     width: 1438px;
-    height: 864px;
+    height: 905.2px;
     margin-top: 242.09px;
     background-image: url(../images/seventh\ section.jpg);
-    background-size: cover;
-    position: absolute;
+    background-size: 1438px 864px;
+    background-repeat: no-repeat;
+    
     
 }
 
@@ -1797,3 +1798,268 @@ input:focus::placeholder {
 
     padding-top: 50px;
 }
+
+.eighth {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+
+.serction-eighth-overflow {
+
+    width: 1256px;
+    height: 642.03px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo-get {
+
+    background-image: url(../images/our-clients.svg);
+    background-repeat: no-repeat;
+    height: 27.62px;
+    width: 114px;
+}
+
+.our-clents-logo {
+
+    
+    width: 1256px;
+    height: 27.62px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-text-our-clients {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #181818;
+}
+
+.our-clents-description-text {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    text-align: center;
+    color: #363636;
+}
+
+.photo-example-client-one {
+
+    background-image: url(../images/first-client.jpg);
+    background-repeat: no-repeat;
+    height: 76px;
+    width: 76px;
+    
+}
+
+.name-example-client-one {
+
+    width: 185px;
+    height: 76px;
+    display: flex;
+    align-items: center;
+    margin-right: 47.08px;
+}
+
+.photo-name-example-client-one {
+
+    display: inline-flex;
+    justify-content: space-between;
+    width: 324.08px;
+    
+}
+
+.client-example-one-work-div {
+
+    width: 324.08px;
+    height: 314px;
+}
+
+.feedback-client-example-one {
+
+    width: 324.08px;s
+}
+
+.feedback-client {
+
+    font-family: "Nunito Sans";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 180%;
+    color: #959595;
+}
+
+.client-example-one {
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    width: 376px;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.metres-div-in-button {
+
+    width: 56px;
+    height: 19.48px;
+    padding-right: 14px;
+    padding-bottom: 3px;
+}
+
+.button-svg-metres {
+
+   padding-left: 17.36px;
+}
+
+.metres-div-text {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.metres {
+
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    height: 54px;
+    width: 135.09px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    border: none;
+    
+}
+
+.calendar-div-text {
+
+    font-family: 'Yeseva One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 24px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.days {
+
+    background: #E3B873;
+    box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
+    height: 54px;
+    width: 158.66px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    border: none;
+    left: 0;
+    bottom: 0;
+    margin-bottom: -27px;
+}
+
+.button-one-client-feedback {
+
+    height: 54px;
+    width: 294.75px;
+    display: inline-flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-bottom: -27px;
+}
+
+.button-svg-calendar {
+
+    padding-left: 17.36px;
+ }
+
+ .calendar-div-in-button {
+
+    width: 81.43px;
+    height: 19.48px;
+    padding-right: 14px;
+    padding-bottom: 3px;
+}
+
+.photo-example-client-two {
+
+    background-image: url(../images/second-client.jpg);
+    background-repeat: no-repeat;
+    height: 76px;
+    width: 76px;
+}
+
+.our-client-examples {
+
+    display: inline-flex;
+}
+
+.client-example-two {
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    width: 376px;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.client-example-three {
+
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.04);
+    width: 376px;
+    height: 428px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+    
+}
+
+.photo-example-client-three {
+
+    background-image: url(../images/three-client.jpg);
+    background-repeat: no-repeat;
+    height: 76px;
+    width: 76px;
+}
+
