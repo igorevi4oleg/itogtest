@@ -1161,7 +1161,7 @@ svg:hover path.left1, svg:hover path.left2 {
   .svg1 {
 
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     z-index: 5;
     padding-top: 100px;
@@ -1175,7 +1175,7 @@ svg:hover path.left1, svg:hover path.left2 {
   .svg2 {
 
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     z-index: 5;
     padding-top: 50px;
@@ -1189,7 +1189,7 @@ svg:hover path.left1, svg:hover path.left2 {
   .svg3 {
 
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     z-index: 5;
     padding-top: 50px;
@@ -1204,7 +1204,7 @@ svg:hover path.left1, svg:hover path.left2 {
   .svg4 {
 
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     z-index: 5;
     padding-top: 50px;
@@ -1270,9 +1270,8 @@ svg:hover path.left1, svg:hover path.left2 {
   .backdiv {
 
     position: absolute;
-    padding-right: 24px;
     z-index: 13;
-    width: 33px;
+    
     
 
 
