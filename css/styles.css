@@ -17,6 +17,11 @@ body {
     min-width: 1000px;
 }
 
+body, *, ::after, ::before {
+
+    box-sizing: border-box;
+}
+
 .REQUEST-A-CALL {
     
     font-family: 'Nunito Sans';
