@@ -14,7 +14,7 @@
 body {
     
     width: 100%;
-    min-width: 1000px;
+    min-width: 1256px;
 }
 
 body, *, ::after, ::before {
@@ -1904,18 +1904,6 @@ input:focus::placeholder {
     
 }
 
-.metres-div-in-button {
-
-    width: 56px;
-    height: 19.48px;
-    padding-right: 14px;
-    padding-bottom: 3px;
-}
-
-.button-svg-metres {
-
-   padding-left: 17.36px;
-}
 
 .metres-div-text {
 
@@ -1934,13 +1922,10 @@ input:focus::placeholder {
 
     background: #E3B873;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
-    height: 54px;
     width: 135.09px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
+    justify-content: space-around;
     border: none;
     
 }
@@ -1962,17 +1947,11 @@ input:focus::placeholder {
 
     background: #E3B873;
     box-shadow: 5px 5px 20px rgba(227, 184, 115, 0.5);
-    height: 54px;
     width: 158.66px;
-    display: inline-flex;
+    display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0;
-    margin: 0;
+    justify-content: space-around;
     border: none;
-    left: 0;
-    bottom: 0;
-    margin-bottom: -27px;
 }
 
 .button-one-client-feedback {
@@ -1985,19 +1964,6 @@ input:focus::placeholder {
     bottom: 0;
     left: 0;
     margin-bottom: -27px;
-}
-
-.button-svg-calendar {
-
-    padding-left: 17.36px;
- }
-
- .calendar-div-in-button {
-
-    width: 81.43px;
-    height: 19.48px;
-    padding-right: 14px;
-    padding-bottom: 3px;
 }
 
 .photo-example-client-two {
