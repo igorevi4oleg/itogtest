@@ -543,9 +543,9 @@ article img {
     max-width: 680px;
 }
 
-#switch1:checked ~ #controls label:nth-child(3),
-#switch2:checked ~ #controls label:nth-child(1),
-#switch3:checked ~ #controls label:nth-child(2){
+#switch1:checked ~ #panel>#controls label:nth-child(3),
+#switch2:checked ~ #panel>#controls label:nth-child(1),
+#switch3:checked ~ #panel>#controls label:nth-child(2){
 
     background: url(../images/Group1.svg) no-repeat;
     color: white;
@@ -554,16 +554,15 @@ article img {
     float: left;
 }
 
-#switch1:checked ~  #controls label:nth-child(2),
-#switch2:checked ~  #controls label:nth-child(3),
-#switch3:checked ~  #controls label:nth-child(1){
+#switch1:checked ~ #panel>#controls label:nth-child(2),
+#switch2:checked ~ #panel>#controls label:nth-child(3),
+#switch3:checked ~ #panel>#controls label:nth-child(1){
 
     background: url(../images/Group2.svg) no-repeat;
     color: white;
     width: 41px;
     height: 13px;
     float: right;
-    margin-left: 155px;
 
 }
 
@@ -603,24 +602,19 @@ label, a {
 
 }
 
-#controls {
+#panel {
 
-    margin-left: 360px;
-    height: 14px;
-    position: absolute;
-    left: 0;
-    display: block;
-    margin-top: -3px;
+    position: relative;
+    right: 575px;
+    width: 300px;
 
 }
 
+
 #active {
 
-    text-align: center;
-    position: absolute;
-    left: 0;
-    margin-left: 430px;
-    margin-top: -12px;
+    position: relative;
+    bottom: 10px;
 }
 
 #active label:hover {
@@ -630,9 +624,9 @@ label, a {
        
 }
 
-#switch1:checked ~ #active label:nth-child(1),
-#switch2:checked ~ #active label:nth-child(2),
-#switch3:checked ~ #active label:nth-child(3){
+#switch1:checked ~ #panel>#active label:nth-child(1),
+#switch2:checked ~ #panel>#active label:nth-child(2),
+#switch3:checked ~ #panel>#active label:nth-child(3){
 
     background: white;
 
