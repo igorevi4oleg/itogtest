@@ -566,6 +566,33 @@ article img {
 
 }
 
+#switch1:checked ~ #controls1 .for-mobile:nth-child(3),
+#switch2:checked ~ #controls1 .for-mobile:nth-child(1),
+#switch3:checked ~ #controls1 .for-mobile:nth-child(2){
+
+    background: url(../images/left-arrow-svg.svg) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: left;
+}
+
+#switch1:checked ~ #controls1 .for-mobile:nth-child(2),
+#switch2:checked ~ #controls1 .for-mobile:nth-child(3),
+#switch3:checked ~ #controls1 .for-mobile:nth-child(1){
+
+    background: url(../images/right-arrow-svg.svg) no-repeat;
+    width: 36px;
+    height: 36px;
+    float: right;
+
+}
+
+#controls1 {
+
+    position: relative;
+    top: -55%;
+}
+
 
 label, a {
 
@@ -682,7 +709,7 @@ label, a {
     margin: 0 auto;
     justify-content: center;
     margin-top: -217px;
-    background-image: url(../images/image\ 6.jpg);
+    background-image: url(../images/image6.jpg);
     
     
     
@@ -690,7 +717,7 @@ label, a {
 
 .video {
 
-    width: 817px;
+    width: 818px;
     height: 434px;
     background: rgba(0, 0, 0, 0.7);
     display: flex;
@@ -698,8 +725,8 @@ label, a {
     justify-content: center;
     filter: drop-shadow(0px 20px 50px rgba(0, 0, 0, 0.15));
     
+    
 }
-
 
 .video-underline {
 
