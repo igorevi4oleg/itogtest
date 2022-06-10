@@ -575,7 +575,102 @@
         background-position: center center;
         background-size: 50% 50%;
 
+    }
+
 }
 
+/* SECTION FIFTH MEDIA SCREEN */ 
 
+@media screen and (max-width: 480px) {
+
+    .fifth {
+
+        display: block;
+        width: auto;
+    }
+    
+    
+    .repair-div {
+
+        padding-top: 75px;
+    }
+
+    .types-block {
+
+        width: auto;
+        display: block;
+        margin: 0 18px;
+    }
+
+    
+
+    .redecoration, .overhaul, .designer-repair {
+
+        display: block;
+        width: auto;
+        margin-bottom: 177px;
+    }
+
+    .redecoration-photo, .overhaul-photo, .designer-repair-photo {
+
+        display: block;
+        width: auto;
+        height: 365px;
+        background-size: cover;
+    }
+
+    .redecoration-ul, .overhaul-ul, .designer-repair-ul {
+
+        display: block;
+        position: absolute;
+        left: 0;
+        top: 60%;
+        width: 270px;
+        height: 241px;
+        margin: 0;
+    }
+
+    .ul-redecoration, .ul-overhaul, .ul-designer-repair {
+
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+        color: #363636;
+    }
+
+    .li-redecoration, .li-overhaul, .li-designer-repair {
+
+        font-family: 'Nunito Sans';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 13px;
+        line-height: 169.8%;
+        color: #959595;
+    }
+
+    .button-cost {
+
+        margin: 0;
+        width: 190.43px;
+        height: 40px;
+        
+    }
+
+    .from-rub {
+
+        font-family: 'Yeseva One';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 15px;
+        line-height: 138.6%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+    }
+
+    
+
+
+}
 
