@@ -652,12 +652,18 @@ label, a {
 }
 
 
-.online-controle-img {
+.online-control {
 
-    display: flex;
-    justify-content: center;
-    padding-top: 92px;
+    margin: 0 auto;
+    display: block;
+    padding-top: 193px;
     width: 1256px;
+}
+
+.online-control-img {
+
+    width: 196px;
+    margin: 0 auto;
 }
 
 .overflow-third {
