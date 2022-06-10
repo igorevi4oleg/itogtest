@@ -11,6 +11,11 @@
     src: url(../font/YesevaOne-Regular.ttf);
 }
 
+html {
+
+    overflow-x: hidden;
+}
+
 body {
     
     
@@ -61,13 +66,28 @@ body, *, ::after, ::before {
     width: 1256px;
 }
 
+.phone .number {
+
+    font-family: 'Nunito Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: right;
+    text-decoration-line: underline;
+    color: #E3B873;
+}
+
+.phone {
+
+    height: 22px;
+}
 
 header {
 
     background-color: black;
     display: block;
     
-
 }
 
 
@@ -82,7 +102,12 @@ header {
     text-transform: uppercase;
     color: #E3B873;
     margin: 0;
-    
+   
+}
+
+.logo {
+
+    height: 10px;
 }
 
 .pages {
