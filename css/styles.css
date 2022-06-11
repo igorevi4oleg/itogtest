@@ -2012,11 +2012,6 @@ input:focus::placeholder {
 }
 
 
-
-
-
-
-
 .eighth {
 
     display: flex;
@@ -2109,7 +2104,7 @@ input:focus::placeholder {
 
 .feedback-client-example-one {
 
-    width: 324.08px;s
+    width: 324.08px;
 }
 
 .feedback-client {
@@ -2585,7 +2580,7 @@ input:focus::placeholder {
   footer {
 
     background-color: black;
-    display: flex;
+    display: block;
     
 
 }
